@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #e9e6e6;
+    color: #222;
+}
+.Top-bar {
+    display: flex;
+    background: #0d3b0c;
+    height: 30px;
+    color: #fcf9f9;
+    align-items:center;
+    padding: 0 25px;
+}
+.Language {
+    margin-right: auto;
+    font-size: 12px;
+}
+.currency {
+    font-size: 12px;
+    padding-right: 740px;
+}
+.Payment {
+    font-size: 13px;
+    padding-right: 40px;
+}
+.Reg {
+    font-size: 13px;
+    padding-left: 10px;
+}
+.Acc {
+    font-size: 13px;
+    padding-left: 30px;
+}
+.Chart-logo {
+    color: black;
+    font-size: 50px;
+}
+.logo,h1{
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    color: rgb(240, 58, 12);
+}
+p { 
+    color: black;
+    padding-left: 15px;
+}
+.Search-area {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    max-width: 2000px;
+    padding-left: 100px;
+    margin: 8px auto 0;
+    height: 35  zpx;
+}
+.Search-area input {
+    flex: 1;
+    height: 35px;
+    border: 2px solid #ddd;
+    border-radius: 10px 0 0 10px;
+    padding-right: 30px;
+    padding-left: 200px;
+   box-sizing: border-box;
+    outline: none;
+}
+.Search-area select { 
+    width: 220px;
+    height: 35px;
+    padding: 0 20px;
+    font-size: 18px;
+    border:2px solid #ddd;
+    border-left: none;
+    border-radius: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+.Search-area button{
+    width: 60px;
+    height: 34px;
+    border: none;
+    border-radius: 0px;
+    box-sizing: border-box;
+    background: #263d1d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.cart-area {
+    display: flex;
+    align-items: center; 
+    padding-left: 20px ;
+    gap: 15px;
+}
+.heart {
+    color: #111010;
+    font-size: 30px;
+   
+}
+.cart {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.bag {
+    width: 28px;
+    height: 25px;
+    background: #ff4b0b;
+    border-radius: 5px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bag::before {
+    content: "";
+    position: absolute;
+    width: 9px;
+    height: 6px;
+    border: 3px solid #ff4b0b;
+    border-bottom: none;
+    border-radius: 7px 7px 0 0;
+    top: -8px;
+    left: 6px;
+} 
+.bag span{
+    color: white;
+    font-size: 11px;
+    font-weight: 500;
+}
+.cart-text {
+    font-size: 25px;
+    color: #111;
+    white-space: nowrap;
+}
+.home-btn {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #b9d650;
+    background: orangered;
+    color: white;
+    border: none;
+    padding: 25px 40px;
+    border-radius: 35px;
+    font-size: 30px;
+}
+.hamburget {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.hamburget i {
+    width: 55px;
+    height: 5px;
+    background: white;
+    border-radius: 5px;
+}
